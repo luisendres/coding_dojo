@@ -1,0 +1,34 @@
+button {
+    margin-top: 10px;
+    margin-left: 75px;
+}
+.search{
+    color: aquamarine;
+    background: white;
+    border-radius: 20px;
+    border-color: aquamarine;
+    display: block;
+    width: 150px;
+    height: 25px;
+    margin-top: 50px;
+
+}
+
+.plus{
+    color: white;
+    background: aquamarine;
+    border-radius: 50px;
+    border-color: rgba(127, 255, 212, 0);
+    display: block;
+    width: 30px;
+    height: 30px; 
+}
+
+.account{
+    color: white;
+    background: blue;
+    box-shadow: 3px 3px 3px black;
+    display: block;
+    width: 200px;
+    height: 30px;
+}
