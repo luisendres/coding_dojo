@@ -1,0 +1,14 @@
+h1 {
+    background: black;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+h3 {
+    background: rgba(0, 162, 255, 0.404);
+    text-align: right;
+    text-decoration: underline;
+}
