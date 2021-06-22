@@ -17,7 +17,23 @@
             <label for="lName">Last Name: *</label>
             <input type="text" name="lName" id="lName">
         </div>
-        <p>Gender Identity</p>
+        <div>
+            <label for="email">Email Address: *</label>
+            <input type="text" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password: *</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <div>
+            <label for="confirm_password">Confirm Password: *</label>
+            <input type="password" name="confirm_password" id="password">
+        </div>
+        <div>
+            <label for="date">Birthday: </label>
+            <input type="date" name="date" id="date">
+        </div>
+        <p>Gender Identity:</p>
         <div>
             <input type="radio" name="gender" id="male">
             <label for="male">Male</label>
@@ -28,9 +44,9 @@
             <input type="radio" name="gender" id="na">
             <label for="na">I prefer not to answer</label>
         </div>
+        <label for="description">A short description about myself:</label>
         <div>
-            <label for="description">A short description about myself:</label>
-            <textarea name="description" id="description" cols="60" rows="4"></textarea>
+            <textarea name="description" id="description" cols="30" rows="4"></textarea>
         </div>
         <div>
             <label for="language">Favorite language: </label>
@@ -41,7 +57,14 @@
                 <option>Java</option>
             </select>
         </div>
-        <input type="submit" value="Submit">
+        <div>
+            <input type="checkbox" name="updates" id="updates">
+            <label for="upadates">Yes, I would like to receive email updates</label>
+        </div>
+        <input type="submit" value="Create Account">
+        <div>
+            <label>*Indicates a reqiured field</label>
+        </div>
     </form>
 </body>
 </html>
