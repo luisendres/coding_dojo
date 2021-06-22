@@ -1,0 +1,47 @@
+
+
+/* to specify a class we use a "."
+    to specify an id we use a "#"
+*/
+
+
+body{
+    background: black;
+}
+
+
+
+.container{
+    background: red;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-bar{
+    background: rgb(255, 119, 0);
+    height: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.nav-bar h1{
+    color: aqua;
+}
+
+.add{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 0px, 20px, 10px, 20px;
+}
+
+.blue{
+    background-color:  blue;
+}
+
+.border-round{
+    border-radius: 20px;
+}
