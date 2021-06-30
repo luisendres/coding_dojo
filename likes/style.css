@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+nav {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+nav h1 {
+    padding: 10px;
+}
+h1.feed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.margin {
+    margin: auto;
+    width: 700px;
+}
+
+.profile, .post{
+    outline: 2px solid black;
+}
+
+.flexOne {
+    flex: 1;
+}
+
+.flexTwo {
+    flex: 2;
+}
+.gap {
+    display: flex;
+    gap: 25px;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.columnP {
+    background-color: green;
+    display: flex;
+}
+
+.column{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.post {
+    height: 120px;
+    width: 500px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info2 {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#count, #count1, #count2 {
+    padding-left: 200px;
+}
+
+.btn {
+    height: 30px;
+    width: 60px;
+    background-color: yellow;
+}
+
+.profile {
+    height: 220px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+img {
+    height: 80px;
+}
+
+.info {
+    display: inline;
+}

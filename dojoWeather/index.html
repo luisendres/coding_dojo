@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>DojoWeather</h1>
+        <div class="cities">
+            <button class="btn" onclick="warning()"> Burbank</button>
+            <button class="btn" onclick="warning()"> Chicago</button>
+            <button class="btn" onclick="warning()"> Dallas</button>
+        </div>
+    </nav>
+    <main>
+        <header>
+            <h2>San Jose</h2>
+            <span>show temperature in
+                <select name="typeTemp" onchange="degrees(this)">
+                    <option id="c">&#xb0;C</option>
+                    <option id="f">&#xb0;F</option>
+                </select>
+            </span>
+        </header>
+        <div class="row">
+            <div class="weather">
+                <h3>Today</h3>
+                <img src="./images/some_rain.png" alt="some rain">
+                <span>some rain</span>
+                <div class="temps">
+                    <span id = "rainH" class="highest">24&#xb0;</span>
+                    <span id = "rainL" class="lowest">18&#xb0;</span>
+                </div>
+            </div>
+            <div class="weather">
+                <h3>Tomorrow</h3>
+                <img src="./images/some_sun.png" alt="some sun">
+                <span>some sun</span>
+                <div class="temps">
+                    <span id = "sunH" class="highest">27&#xb0;</span>
+                    <span id = "sunL" class="lowest">19&#xb0;</span>
+                </div>
+            </div>
+            <div class="weather">
+                <h3>Friday</h3>
+                <img src="./images/some_clouds.png" alt="some clouds">
+                <span>some clouds</span>
+                <div class="temps">
+                    <span id = "cloudsH" class="highest">21&#xb0;</span>
+                    <span id = "cloudsL" class="lowest">16&#xb0;</span>
+                </div>
+            </div>
+            <div class="weather">
+                <h3>Saturday</h3>
+                <img src="./images/some_sun.png" alt="some sun">
+                <span>some sun</span>
+                <div class="temps">
+                    <span id = "someSunH" class="highest">26&#xb0;</span>
+                    <span id = "someSunL" class="lowest">21&#xb0;</span>
+                </div>
+            </div>
+        </div>
+        <div id="live" class="alertBox sneak">
+            <img src="./images/cookie.png" alt="cookie" class="cookie">
+            <p class="info"> <span class="title">Stop!</span> We use cookes (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.<a href="">Read more...</a> </p>
+            <button class="accept" onclick="away()">I Accept</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

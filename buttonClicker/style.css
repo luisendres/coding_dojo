@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(167, 167, 167);
+    height: 50px;
+}
+
+main {
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.margin {
+    margin: auto;
+    width: 700px;
+}
+
+
+.flex-small {
+    flex: 1;
+}
+
+.flex-large {
+    flex: 2;
+}
+
+.gap {
+    display: flex;
+    gap: 25px;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.just {
+    justify-content: space-around;
+}
+
+.container {
+    height: 150px;
+    width: 100%;
+}
+
+.container-small {
+    height: 120px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.outline {
+    outline: 2px solid black;
+}
+
+.login {
+    background-color:blue;
+    border: 2px solid black;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+    height: 25px;
+    width: 60px;
+}
+
